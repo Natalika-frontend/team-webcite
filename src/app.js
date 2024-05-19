@@ -12,7 +12,7 @@ export const App = () => {
 			<Header />
 			<div className={styles.content}>
 				<Routes>
-					<Route path="/" element={<Main />} />
+					<Route path="/team-webcite" element={<Main />} />
 					<Route
 						path="/Vladislav"
 						element={<Participants DB={DB_VLADISLAV} />}
